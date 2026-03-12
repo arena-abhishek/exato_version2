@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
   /*footer */
   let footer = document.querySelector(".footer");
   if (footer) {
-    let content2 = `		<footer class="ul-footer">
+    let content2 = `<footer class="ul-footer">
     <!-- footer top -->
     <div class="ul-footer-top">
         <div class="ul-container">
@@ -158,64 +158,44 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="ul-footer-middle">
         <div class="ul-container">
             <div class="ul-footer-middle-wrapper wow animate__fadeInUp">
-                <div class="ul-footer-about">
-                    <h3 class="ul-footer-widget-title">About Socioly</h3>
-                    <p class="ul-footer-about-txt">Socioly is a cutting-edge social media marketing agency focused on helping businesses grow their online presence. Through tailored marketing strategies, we drive engagement, foster community-building, and ensure long-term digital success.</p>
-                    <a href="contact.html" class="ul-footer-about-btn">Get in Touch <i class="flaticon-top-right"></i></a>
-                </div>
-
+                <!-- Offerings Section -->
                 <div class="ul-footer-widget">
-                    <h3 class="ul-footer-widget-title">Our Services</h3>
-
+                    <h3 class="ul-footer-widget-title">Offerings</h3>
                     <div class="ul-footer-widget-links">
-                        <a href="service-details.html">Paid Search Marketing</a>
-                        <a href="service-details.html">Search Engine Optimization (SEO)</a>
-                        <a href="service-details.html">Email Marketing</a>
-                        <a href="service-details.html">Conversion Rate Optimization (CRO)</a>
-                        <a href="service-details.html">Influencer Marketing</a>
+                        <a href="#">CX as a Service</a>
+                        <a href="#">Conversational AI</a>
+                        <a href="#">Workforce Management</a>
+                        <a href="#">Automation as a Service</a>
+                        <a href="#">Digital Treasury</a>
                     </div>
                 </div>
 
-                <div class="ul-footer-widget ul-footer-recent-posts">
-                    <h3 class="ul-footer-widget-title">Quick Links</h3>
+                <!-- Solutions Section -->
+                <div class="ul-footer-widget">
+                    <h3 class="ul-footer-widget-title">Solutions</h3>
+                    <div class="ul-footer-widget-links">
+                        <a href="#">Analytics</a>
+                        <a href="#">Connectors</a>
+                        <a href="#">Contact Center Optimizers</a>
+                        <a href="#">View All Solutions</a>
+                    </div>
+                </div>
 
+                <!-- Company Section -->
+                <div class="ul-footer-widget">
+                    <h3 class="ul-footer-widget-title">Company</h3>
                     <div class="ul-footer-widget-links">
                         <a href="about.html">About Us</a>
-                        <a href="services.html">Our Services</a>
-                        <a href="https://socioly.in/blog/">Blog</a>
                         <a href="contact.html">Contact Us</a>
+                        <a href="#">Partners</a>
                     </div>
-                </div>
-
-                <div class="ul-footer-widget ul-nwsltr-widget">
-                    <h3 class="ul-footer-widget-title">Stay Connected</h3>
-                    <div class="ul-footer-widget-links">
-                        <span>Monday – Saturday: <span class="colored">10am – 7pm</span></span>
-
-                    </div>
-                    <form action="#" class="ul-nwsltr-form">
-                        <div class="top">
-                            <input type="email" name="email" id="nwsltr-email" placeholder="Enter your Email Address" class="ul-nwsltr-input">
-                            <button type="submit"><i class="flaticon-next-1"></i></button>
-                        </div>
-
-                        <div class="agreement">
-                            <label for="nwsltr-agreement" class="ul-checkbox-wrapper">
-                                <input type="checkbox" name="agreement" id="nwsltr-agreement" hidden>
-                                <span class="ul-checkbox"><i class="flaticon-check-1"></i></span>
-                                <span class="ul-checkbox-txt">I agree with the <a href="#">Privacy Policy</a></span>
-                            </label>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
     </div>
 
-  
-
     <!-- Global Offices Section -->
-    <div class="ul-footer-offices">
+    <div class="ul-footer-offices" style="background-color: #fff;">
         <div class="ul-container">
             <h3 class="ul-footer-widget-title">Global Offices</h3>
             <div class="row">
@@ -263,7 +243,8 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         </div>
     </div>
-      <!-- footer bottom -->
+
+    <!-- footer bottom -->
     <div class="ul-container">
         <div class="ul-footer-bottom">
             <div class="ul-footer-bottom-wrapper justify-content-center">
