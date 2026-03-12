@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="ul-footer-top-contact-infos">
                 <!-- single info -->
                 <div class="ul-footer-top-logo">
-                    <a href="index.html"><img src="assets/img/logo white.png" alt="logo"></a>
+                    <a href="index.html"><img src="assets/img/2.png" alt="logo"></a>
                     <div class="ul-footer-socials">
                         <a href="https://facebook.com"><i class="flaticon-facebook-app-symbol"></i></a>
                         <a href="https://x.com"><i class="flaticon-twitter"></i></a>
@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- txt -->
                     <div class="ul-footer-top-contact-info-txt">
                         <span class="ul-footer-top-contact-info-label">Email Us</span>
-                        <h5 class="ul-footer-top-contact-info-address"><a href="mailto:info@socioly.com">info@socioly.com</a></h5>
+                        <h5 class="ul-footer-top-contact-info-address"><a href="mailto:info@exato.com">info@exato.com</a></h5>
                     </div>
                 </div>
             </div>
@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
 
     <!-- Global Offices Section -->
-    <div class="ul-footer-offices" style="background-color: #fff;">
+    <div class="ul-footer-offices" >
         <div class="ul-container">
             <h3 class="ul-footer-widget-title">Global Offices</h3>
             <div class="row">
@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="ul-footer-bottom">
             <div class="ul-footer-bottom-wrapper justify-content-center">
                 <p class="copyright-txt">Copyright &copy;
-                    <script>document.write(new Date().getFullYear())</script> Socioly. All rights reserved.
+                    <script>document.write(new Date().getFullYear())</script> exato. All rights reserved.
                 </p>
             </div>
         </div>
