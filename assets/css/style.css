@@ -6581,3 +6581,42 @@ Popup Form CSS
 .ul-services .ul-container{
   overflow: hidden;
 }
+
+/* Dropdown styles */
+.has-sub-menu {
+  position: relative;
+}
+
+.has-sub-menu .ul-header-submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.has-sub-menu:hover .ul-header-submenu {
+  display: block;
+}
+
+.ul-header-submenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ul-header-submenu li {
+  padding: 10px;
+}
+
+.ul-header-submenu li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.ul-header-submenu li a:hover {
+  background-color: #f4f4f4;
+}

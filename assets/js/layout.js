@@ -23,78 +23,95 @@ function makeElement(
 document.addEventListener("DOMContentLoaded", function () {
   let header = document.querySelector(".header-js");
   let content1 = ` <!-- SIDEBAR SECTION START -->
-    <div class="ul-sidebar">
-        <!-- header -->
-        <div class="ul-sidebar-header">
-            <div class="ul-sidebar-header-logo">
-                <a href="index.html">
-                    <img src="assets/img/2.png" alt="logo" class="logo">
-                </a>
-            </div>
-            <!-- sidebar closer -->
-            <button class="ul-sidebar-closer"><i class="flaticon-close-1"></i></button>
-        </div>
-
-        <div class="ul-sidebar-header-nav-wrapper d-block d-lg-none"></div>
-
-
-        <!-- sidebar footer -->
-        <div class="ul-sidebar-footer">
-            <span class="ul-sidebar-footer-title">Follow us</span>
-
-            <div class="ul-sidebar-footer-social">
-                <a href="#"><i class="flaticon-facebook"></i></a>
-                <a href="#"><i class="flaticon-twitter"></i></a>
-                <a href="#"><i class="flaticon-instagram"></i></a>
-                <a href="#"><i class="flaticon-linkedin-big-logo"></i></a>
-            </div>
-        </div>
+<div class="ul-sidebar">
+  <!-- header -->
+  <div class="ul-sidebar-header">
+    <div class="ul-sidebar-header-logo">
+      <a href="index.html">
+        <img src="assets/img/2.png" alt="logo" class="logo">
+      </a>
     </div>
-    <!-- SIDEBAR SECTION END -->
+    <!-- sidebar closer -->
+    <button class="ul-sidebar-closer"><i class="flaticon-close-1"></i></button>
+  </div>
 
-    <!-- HEADER SECTION START -->
-    <header class="ul-header">
-        <div class="ul-header-bottom to-be-sticky wow animate__slideInDown">
-            <div class="ul-header-bottom-wrapper ul-header-container">
-                <div class="logo-container">
-                    <a href="index.html" class="d-inline-block"><img src="assets/img/2.png" alt="logo" class="logo"></a>
+  <div class="ul-sidebar-header-nav-wrapper d-block d-lg-none"></div>
+
+  <!-- sidebar footer -->
+  <div class="ul-sidebar-footer">
+    <span class="ul-sidebar-footer-title">Follow us</span>
+
+    <div class="ul-sidebar-footer-social">
+      <a href="#"><i class="flaticon-facebook"></i></a>
+      <a href="#"><i class="flaticon-twitter"></i></a>
+      <a href="#"><i class="flaticon-instagram"></i></a>
+      <a href="#"><i class="flaticon-linkedin-big-logo"></i></a>
+    </div>
+  </div>
+</div>
+<!-- SIDEBAR SECTION END -->
+
+<!-- HEADER SECTION START -->
+<header class="ul-header">
+  <div class="ul-header-bottom to-be-sticky wow animate__slideInDown">
+    <div class="ul-header-bottom-wrapper ul-header-container">
+      <div class="logo-container">
+        <a href="index.html" class="d-inline-block"><img src="assets/img/2.png" alt="logo" class="logo"></a>
+      </div>
+
+      <div class="ul-header-bottom-right">
+        <!-- header nav -->
+        <div class="ul-header-nav-wrapper">
+          <div class="to-go-to-sidebar-in-mobile">
+            <nav class="ul-header-nav">
+              <a href="index.html">Home</a>
+              <div class="has-sub-menu">
+                <a href="services.html">OUR SOLUTIONS</a>
+                <div class="ul-header-submenu">
+                  <ul>
+                    <li><a href="services/cx-analytics.html">CX & ANALYTICS</a></li>
+                    <li><a href="services/cx-as-a-service.html">CX AS A SERVICE</a></li>
+                    <li><a href="services/conversational-ai.html">CONVERSATIONAL AI</a></li>
+                    <li><a href="services/automation-as-a-service.html">AUTOMATION AS A SERVICE</a></li>
+                    <li><a href="services/workforce-management.html">WORKFORCE MANAGEMENT</a></li>
+                    <li><a href="services/unified-communications.html">UNIFIED COMMUNICATIONS</a></li>
+                    <li><a href="services/exatoiq.html">EXATOIQ</a></li>
+                    <li><a href="services/cloud-erp.html">CLOUD ERP</a></li>
+                  </ul>
                 </div>
-
-                <div class="ul-header-bottom-right">
-                    <!-- header nav -->
-                    <div class="ul-header-nav-wrapper">
-                        <div class="to-go-to-sidebar-in-mobile">
-                            <nav class="ul-header-nav">
-                              <!--   <div class="has-sub-menu active">
-                                    <a role="button">Home</a>
-
-                                    <div class="ul-header-submenu">
-                                        <ul>
-                                            <li></li>
-                                            <li><a href="index-2.html">Home 2</a></li>
-                                            <li><a href="index-3.html">Home 3</a></li>
-                                        </ul>
-                                    </div>
-                                </div> -->
-                                <a href="index.html">Home</a>
-                                <a href="about.html">About</a>
-                                <a href="services.html">Services</a>
-                                <a href="pricing.html">Pricing</a>
-                                <a href="https://socioly.in/blog/">Blog</a>
-                                <a href="contact.html">Contact</a>
-
-                            </nav>
-                        </div>
-                    </div>
-
-                    <!-- <button class="ul-header-search-opener"><i class="flaticon-search"></i></button> -->
-                    <a href="contact.html" class="ul-btn d-sm-inline-flex d-xxs-none"><span>Get in Touch <i class="flaticon-top-right"></i></span></a>
-                    <button class="ul-header-sidebar-opener d-lg-none d-inline-flex"><i class="flaticon-right-arrow"></i></button>
+              </div>
+              <div class="has-sub-menu">
+                <a href="industries.html">INDUSTRIES</a>
+                <div class="ul-header-submenu">
+                  <ul>
+                    <li><a href="industries.html">INDUSTRIES</a></li>
+                  </ul>
                 </div>
-            </div>
+              </div>
+              <div class="has-sub-menu">
+                <a href="company.html">COMPANY</a>
+                <div class="ul-header-submenu">
+                  <ul>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="careers.html">CAREERS</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a href="investor.html">INVESTOR</a>
+              <a href="blog.html">Blog</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+          </div>
         </div>
-    </header>
-    <!-- HEADER SECTION END -->`;
+
+        <a href="contact.html" class="ul-btn d-sm-inline-flex d-xxs-none"><span>Get in Touch <i class="flaticon-top-right"></i></span></a>
+        <button class="ul-header-sidebar-opener d-lg-none d-inline-flex"><i class="flaticon-right-arrow"></i></button>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- HEADER SECTION END -->`;
   myHeader = makeElement("div", "", "", "", content1);
   header.append(myHeader);
 
@@ -274,8 +291,6 @@ document.addEventListener("DOMContentLoaded", function () {
 			`;
   mySubs = makeElement("div", "", "", "", content3);
   subscription.append(mySubs);
-
-
 
 
 });
