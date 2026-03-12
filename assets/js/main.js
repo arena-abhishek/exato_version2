@@ -387,7 +387,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 /* =====My custom js====== */
 
 ///============= Pop up cookie =============\\\
-class CookiePopup {
+/* class CookiePopup {
   constructor() {
     this.popup = null;
     this.accepted = false;
@@ -475,10 +475,10 @@ class CookiePopup {
 }
 document.addEventListener("DOMContentLoaded", function () {
   new CookiePopup();
-});
+}); */
 
 // Create the popup form dynamically
-document.addEventListener("DOMContentLoaded", function () {
+/* document.addEventListener("DOMContentLoaded", function () {
   // Create the popup form dynamically
   let popupForm = `
     <div id="popupFormContainer" class="modal fade" tabindex="-1" role="dialog">
@@ -628,7 +628,7 @@ document.addEventListener("DOMContentLoaded", function () {
     `;
   document.head.appendChild(styleTag);
 });
-
+ */
 
 /* pricing  */
 
