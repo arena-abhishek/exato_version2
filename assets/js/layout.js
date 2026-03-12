@@ -69,45 +69,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 <a href="services.html" class="nav-item">OUR SOLUTIONS</a>
                 <div class="ul-header-submenu">
                   <ul>
-                    <li><a href="services/cx-analytics.html" class="sub-nav-item">CX & ANALYTICS</a></li>
-                    <li><a href="services/cx-as-a-service.html" class="sub-nav-item">CX AS A SERVICE</a></li>
-                    <li><a href="services/conversational-ai.html" class="sub-nav-item">CONVERSATIONAL AI</a></li>
-                    <li><a href="services/automation-as-a-service.html" class="sub-nav-item">AUTOMATION AS A SERVICE</a></li>
-                    <li><a href="services/workforce-management.html" class="sub-nav-item">WORKFORCE MANAGEMENT</a></li>
+                    <li><a href="services/cx-analytics.html" class="sub-nav-item">CX & ANALYTICS</a>
+                      <div class="has-sub-menu">
+                        <ul>
+                          <li><a href="services/cx-as-a-service.html" class="sub-nav-item">CX AS A SERVICE</a></li>
+                          <li><a href="services/conversational-ai.html" class="sub-nav-item">CONVERSATIONAL AI</a></li>
+                          <li><a href="services/automation-as-a-service.html" class="sub-nav-item">AUTOMATION AS A SERVICE</a></li>
+                          <li><a href="services/workforce-management.html" class="sub-nav-item">WORKFORCE MANAGEMENT</a></li>
+                        </ul>
+                      </div>
+                    </li>
                     <li><a href="services/unified-communications.html" class="sub-nav-item">UNIFIED COMMUNICATIONS</a></li>
                     <li><a href="services/exatoiq.html" class="sub-nav-item">EXATOIQ</a></li>
                     <li><a href="services/cloud-erp.html" class="sub-nav-item">CLOUD ERP</a></li>
-                    <!-- Nested submenu -->
-                    <div class="has-sub-menu">
-                      <a href="services/advanced-analytics.html" class="sub-nav-item">ADVANCED ANALYTICS</a>
-                      <div class="ul-header-submenu">
-                        <ul>
-                          <li><a href="services/ai-driven-analytics.html" class="sub-nav-item">AI-DRIVEN ANALYTICS</a></li>
-                          <li><a href="services/predictive-analytics.html" class="sub-nav-item">PREDICTIVE ANALYTICS</a></li>
-                        </ul>
-                      </div>
-                    </div>
                   </ul>
                 </div>
               </div>
-              <div class="has-sub-menu">
-                <a href="industries.html" class="nav-item">INDUSTRIES</a>
-                <div class="ul-header-submenu">
-                  <ul>
-                    <li><a href="industries.html" class="sub-nav-item">INDUSTRIES</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="has-sub-menu">
-                <a href="company.html" class="nav-item">COMPANY</a>
-                <div class="ul-header-submenu">
-                  <ul>
-                    <li><a href="about.html" class="sub-nav-item">ABOUT US</a></li>
-                    <li><a href="contact.html" class="sub-nav-item">CONTACT US</a></li>
-                    <li><a href="careers.html" class="sub-nav-item">CAREERS</a></li>
-                  </ul>
-                </div>
-              </div>
+              <a href="industries.html" class="nav-item">INDUSTRIES</a>
+              <a href="company.html" class="nav-item">COMPANY</a>
               <a href="investor.html" class="nav-item">INVESTOR</a>
             </nav>
           </div>

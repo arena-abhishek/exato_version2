@@ -6582,7 +6582,6 @@ Popup Form CSS
   overflow: hidden;
 }
 
-/* Dropdown styles */
 /* Main Navigation item */
 .nav-item {
   border-radius: 8px;
@@ -6629,24 +6628,39 @@ Popup Form CSS
   border-radius: 8px;
   z-index: 1000;
   padding: 10px;
-  width: 200px;
+  width: 250px;
+}
+
+/* Multi-level submenu */
+.has-sub-menu .has-sub-menu .ul-header-submenu {
+  top: 0;
+  left: 100%;
+  margin-left: 10px;
 }
 
 .has-sub-menu:hover .ul-header-submenu {
   display: block;
 }
 
+/* Submenu with indentation for nested items */
 .ul-header-submenu ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* Nested Submenu */
-.has-sub-menu .has-sub-menu .ul-header-submenu {
-  top: 0;
-  left: 100%;
-  margin-left: 10px;
+.ul-header-submenu li {
+  padding: 8px 0;
+}
+
+.ul-header-submenu li a {
+  padding-left: 20px;
+  display: block;
+}
+
+.ul-header-submenu li a:hover {
+  background-color: #f4f4f4;
+  color: #007bff;
 }
 
 /* Responsive Mobile Dropdown */
