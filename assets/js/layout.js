@@ -113,123 +113,145 @@ document.addEventListener("DOMContentLoaded", function () {
   /*footer */
   let footer = document.querySelector(".footer");
   if (footer) {
-    let content2 = `		<footer class="ul-footer">
-    <!-- footer top -->
-    <div class="ul-footer-top">
-        <div class="ul-container">
-            <div class="ul-footer-top-contact-infos">
-                <!-- single info -->
-                <div class="ul-footer-top-logo">
-                    <a href="index.html"><img src="assets/img/logo white.png" alt="logo"></a>
-                    <div class="ul-footer-socials">
-                        <a href="https://facebook.com"><i class="flaticon-facebook-app-symbol"></i></a>
-                        <a href="https://x.com"><i class="flaticon-twitter"></i></a>
-                        <a hrefhttps://instagram.com"><i class="flaticon-linkedin-big-logo"></i></a>
-                        <a href="https://instagram.com"><i class="flaticon-instagram"></i></a>
-                    </div>
-                </div>
+    let content2 = `<footer class="ul-footer bg-dark text-white">
+  <!-- ===== Footer Top ===== -->
+  <div class="ul-footer-top py-4 border-bottom border-light">
+    <div class="container">
+      <div class="row">
+        <!-- Logo + Social -->
+        <div class="col-md-4 d-flex flex-column align-items-start">
+          <a href="index.html">
+            <img src="assets/img/logo-white.png" alt="Logo" width="150">
+          </a>
 
-                <!-- single info -->
-                <div class="ul-footer-top-contact-info">
-                    <!-- icon -->
-                    <div class="ul-footer-top-contact-info-icon"><i class="flaticon-telephone"></i></div>
-                    <!-- txt -->
-                    <div class="ul-footer-top-contact-info-txt">
-                        <span class="ul-footer-top-contact-info-label">Call Now</span>
-                        <h5 class="ul-footer-top-contact-info-address"><a href="tel:+91 9240255048">+91 9240255048</a></h5>
-                    </div>
-                </div>
-
-                <!-- single info -->
-                <div class="ul-footer-top-contact-info">
-                    <!-- icon -->
-                    <div class="ul-footer-top-contact-info-icon"><i class="flaticon-mail"></i></div>
-                    <!-- txt -->
-                    <div class="ul-footer-top-contact-info-txt">
-                        <span class="ul-footer-top-contact-info-label">Email Us</span>
-                        <h5 class="ul-footer-top-contact-info-address"><a href="mailto:info@socioly.com">info@socioly.com</a></h5>
-                    </div>
-                </div>
-            </div>
+          <div class="social-icons mt-3">
+            <a href="https://facebook.com" class="btn btn-outline-light btn-social-icon"><i class="flaticon-facebook-app-symbol"></i></a>
+            <a href="https://twitter.com" class="btn btn-outline-light btn-social-icon"><i class="flaticon-twitter"></i></a>
+            <a href="https://linkedin.com" class="btn btn-outline-light btn-social-icon"><i class="flaticon-linkedin-big-logo"></i></a>
+            <a href="https://instagram.com" class="btn btn-outline-light btn-social-icon"><i class="flaticon-instagram"></i></a>
+          </div>
         </div>
-    </div>
 
-    <!-- footer middle -->
-    <div class="ul-footer-middle">
-        <div class="ul-container">
-            <div class="ul-footer-middle-wrapper wow animate__fadeInUp">
-                <div class="ul-footer-about">
-                    <h3 class="ul-footer-widget-title">About Socioly</h3>
-                    <p class="ul-footer-about-txt">Socioly is a cutting-edge social media marketing agency focused on helping businesses grow their online presence. Through tailored marketing strategies, we drive engagement, foster community-building, and ensure long-term digital success.</p>
-                    <a href="contact.html" class="ul-footer-about-btn">Get in Touch <i class="flaticon-top-right"></i></a>
-                </div>
-
-                <div class="ul-footer-widget">
-                    <h3 class="ul-footer-widget-title">Our Services</h3>
-
-                    <div class="ul-footer-widget-links">
-                        <a href="service-details.html">Paid Search Marketing</a>
-                        <a href="service-details.html">Search Engine Optimization (SEO)</a>
-                        <a href="service-details.html">Email Marketing</a>
-                        <a href="service-details.html">Conversion Rate Optimization (CRO)</a>
-                        <a href="service-details.html">Influencer Marketing</a>
-                    </div>
-                </div>
-
-                <div class="ul-footer-widget ul-footer-recent-posts">
-                    <h3 class="ul-footer-widget-title">Quick Links</h3>
-
-                    <div class="ul-footer-widget-links">
-                        <a href="about.html">About Us</a>
-                        <a href="services.html">Our Services</a>
-                        <a href="https://socioly.in/blog/">Blog</a>
-                        <a href="contact.html">Contact Us</a>
-                    </div>
-                </div>
-
-                <div class="ul-footer-widget ul-nwsltr-widget">
-                    <h3 class="ul-footer-widget-title">Stay Connected</h3>
-                    <div class="ul-footer-widget-links">
-                        <span>Monday – Saturday: <span class="colored">10am – 7pm</span></span>
-
-                    </div>
-                    <form action="#" class="ul-nwsltr-form">
-                        <div class="top">
-                            <input type="email" name="email" id="nwsltr-email" placeholder="Enter your Email Address" class="ul-nwsltr-input">
-                            <button type="submit"><i class="flaticon-next-1"></i></button>
-                        </div>
-
-                        <div class="agreement">
-                            <label for="nwsltr-agreement" class="ul-checkbox-wrapper">
-                                <input type="checkbox" name="agreement" id="nwsltr-agreement" hidden>
-                                <span class="ul-checkbox"><i class="flaticon-check-1"></i></span>
-                                <span class="ul-checkbox-txt">I agree with the <a href="#">Privacy Policy</a></span>
-                            </label>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        <!-- Call -->
+        <div class="col-md-4 d-flex align-items-center justify-content-center">
+          <div class="icon-container bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+            <i class="flaticon-telephone"></i>
+          </div>
+          <div class="ml-3">
+            <p class="text-sm text-white">Call Now</p>
+            <a href="tel:+919240255048" class="text-lg font-weight-bold text-light">+91 924025xxxx</a>
+          </div>
         </div>
-    </div>
 
-    <!-- footer bottom -->
-    <div class="ul-container">
-        <div class="ul-footer-bottom">
-            <div class="ul-footer-bottom-wrapper justify-content-center">
-                <p class="copyright-txt">Copyright &copy;
-                    <script>document.write(new Date().getFullYear())</script> Socioly. All rights reserved.
-                </p>
-            </div>
+        <!-- Email -->
+        <div class="col-md-4 d-flex align-items-center justify-content-end">
+          <div class="icon-container bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+            <i class="flaticon-mail"></i>
+          </div>
+          <div class="ml-3">
+            <p class="text-sm text-white">Email Us</p>
+            <a href="mailto:info@socioly.com" class="text-lg font-weight-bold text-light">cx@exato.ai</a>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 
-    <!-- vector -->
-    <div class="ul-footer-vectors">
-        <img src="assets/img/footer-vector-1.svg" alt="Footer Image" class="ul-footer-vector-1">
-        <img src="assets/img/footer-vector-2.svg" alt="Footer Image" class="ul-footer-vector-2">
+  <!-- ===== Footer Middle ===== -->
+  <div class="ul-footer-middle py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Column 1: Offerings -->
+        <div class="col-md-3">
+          <h5 class="text-light">OFFERINGS</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light">CX AS A SERVICE</a></li>
+            <li><a href="#" class="text-light">CONVERSATIONAL AI</a></li>
+            <li><a href="#" class="text-light">WORKFORCE MANAGEMENT</a></li>
+            <li><a href="#" class="text-light">AUTOMATION AS A SERVICE</a></li>
+            <li><a href="#" class="text-light">DIGITAL TREASURY</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 2: Solutions -->
+        <div class="col-md-3">
+          <h5 class="text-light">SOLUTIONS</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light">Analytics</a></li>
+            <li><a href="#" class="text-light">Connectors</a></li>
+            <li><a href="#" class="text-light">Contact Center Optimizers</a></li>
+            <li><a href="#" class="text-light">View All Solutions</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Company -->
+        <div class="col-md-3">
+          <h5 class="text-light">COMPANY</h5>
+          <ul class="list-unstyled">
+            <li><a href="/about" class="text-light">About Us</a></li>
+            <li><a href="/contact" class="text-light">Contact Us</a></li>
+            <li><a href="/partners" class="text-light">Partners</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Stay Connected -->
+        <div class="col-md-3">
+          <h5 class="text-light">STAY CONNECTED</h5>
+          <p class="text-light">Monday – Saturday: <span class="text-primary">10am – 7pm</span></p>
+          <form>
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" placeholder="Enter your Email Address" required>
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">→</button>
+              </div>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="privacyPolicyCheck">
+              <label class="form-check-label text-light" for="privacyPolicyCheck">
+                I agree with the <a href="#" class="text-primary">Privacy Policy</a>
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-</footer>
-`;
+  </div>
+
+  <!-- ===== Global Offices ===== -->
+  <div class="ul-footer-offices py-5 bg-dark text-light">
+    <div class="container">
+      <h5 class="text-center">GLOBAL OFFICES</h5>
+      <div class="row">
+        <div class="col-md-3">
+          <p class="font-weight-bold text-primary">USA</p>
+          <p>Exato.ai Inc.<br>300 Carnegie Centre, Suite #150,<br>Princeton, New Jersey, 08540<br>United States of America</p>
+        </div>
+        <div class="col-md-3">
+          <p class="font-weight-bold text-primary">USA</p>
+          <p>Exato.ai Inc.<br>108 West 13th Street,<br>Wilmington, New Castle,<br>Delaware, 19801<br>United States of America</p>
+        </div>
+        <div class="col-md-3">
+          <p class="font-weight-bold text-primary">Singapore</p>
+          <p>Exato.ai Pte. Ltd.<br>1 Scotts Road, #24-10,<br>Shaw Centre,<br>Singapore 228208</p>
+        </div>
+        <div class="col-md-3">
+          <p class="font-weight-bold text-primary">India</p>
+          <p>Noida<br>Exato Technologies Limited.<br>A-33, 2nd Floor, Sector-02,<br>Noida, Uttar Pradesh, 201301</p>
+          <p class="mt-3">Mumbai<br>Exato Technologies Limited<br>601 A/2, Shubham Centre,<br>Cardinal Gracious Road, Andheri (E), Mumbai 400099</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Footer Bottom ===== -->
+  <div class="ul-footer-bottom py-3 bg-dark text-center text-light">
+    <p>© <script>document.write(new Date().getFullYear())</script> Exato Ai. All rights reserved.</p>
+  </div>
+
+  <!-- ===== Decorative Vectors ===== -->
+  <img src="assets/img/footer-vector-1.svg" alt="Footer Vector 1" class="position-absolute bottom-0 left-0 opacity-10" style="width: 300px; height: 300px;">
+  <img src="assets/img/footer-vector-2.svg" alt="Footer Vector 2" class="position-absolute top-0 right-0 opacity-10" style="width: 300px; height: 300px;">
+</footer>`;
     // Append the footer content directly to the footer element
     footer.innerHTML = content2;
   } else {
