@@ -69,13 +69,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 <a href="services.html" class="nav-item">OUR SOLUTIONS</a>
                 <div class="ul-header-submenu">
                   <ul>
-                    <li><a href="services/cx-analytics.html" class="sub-nav-item">CX & ANALYTICS</a>
+                    <li>
+                      <a href="services/cx-analytics.html" class="sub-nav-item">CX & ANALYTICS</a>
                       <div class="has-sub-menu">
                         <ul>
                           <li><a href="services/cx-as-a-service.html" class="sub-nav-item">CX AS A SERVICE</a></li>
                           <li><a href="services/conversational-ai.html" class="sub-nav-item">CONVERSATIONAL AI</a></li>
                           <li><a href="services/automation-as-a-service.html" class="sub-nav-item">AUTOMATION AS A SERVICE</a></li>
                           <li><a href="services/workforce-management.html" class="sub-nav-item">WORKFORCE MANAGEMENT</a></li>
+                          <!-- Sub-Submenu -->
+                          <div class="has-sub-menu">
+                            <ul>
+                              <li><a href="services/advanced-cx.html" class="sub-nav-item">ADVANCED CX</a></li>
+                              <li><a href="services/ai-driven-automation.html" class="sub-nav-item">AI-DRIVEN AUTOMATION</a></li>
+                            </ul>
+                          </div>
                         </ul>
                       </div>
                     </li>

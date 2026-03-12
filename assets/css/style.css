@@ -6601,7 +6601,7 @@ Popup Form CSS
 /* Submenu item */
 .sub-nav-item {
   border-radius: 6px;
-  padding: 8px 15px;
+  padding: 10px 15px;
   text-decoration: none;
   color: #333;
   display: block;
@@ -6650,12 +6650,13 @@ Popup Form CSS
 }
 
 .ul-header-submenu li {
-  padding: 8px 0;
+  padding: 10px 0;
 }
 
 .ul-header-submenu li a {
   padding-left: 20px;
   display: block;
+  margin: 0;
 }
 
 .ul-header-submenu li a:hover {
