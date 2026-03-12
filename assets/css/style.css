@@ -6583,6 +6583,38 @@ Popup Form CSS
 }
 
 /* Dropdown styles */
+/* Main Navigation item */
+.nav-item {
+  border-radius: 8px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+  background-color: #f4f4f4;
+  color: #007bff;
+}
+
+/* Submenu item */
+.sub-nav-item {
+  border-radius: 6px;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #333;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.sub-nav-item:hover {
+  background-color: #f4f4f4;
+  color: #007bff;
+}
+
+/* Submenu container */
 .has-sub-menu {
   position: relative;
 }
@@ -6593,8 +6625,11 @@ Popup Form CSS
   top: 100%;
   left: 0;
   background-color: white;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   z-index: 1000;
+  padding: 10px;
+  width: 200px;
 }
 
 .has-sub-menu:hover .ul-header-submenu {
@@ -6603,20 +6638,20 @@ Popup Form CSS
 
 .ul-header-submenu ul {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-.ul-header-submenu li {
-  padding: 10px;
+/* Nested Submenu */
+.has-sub-menu .has-sub-menu .ul-header-submenu {
+  top: 0;
+  left: 100%;
+  margin-left: 10px;
 }
 
-.ul-header-submenu li a {
-  text-decoration: none;
-  color: #333;
-  display: block;
-}
-
-.ul-header-submenu li a:hover {
-  background-color: #f4f4f4;
+/* Responsive Mobile Dropdown */
+@media screen and (max-width: 768px) {
+  .ul-header-nav {
+    display: none;
+  }
 }
