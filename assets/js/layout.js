@@ -198,7 +198,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="ul-footer-offices" >
         <div class="ul-container">
             <h3 class="ul-footer-widget-title">Global Offices</h3>
-            <div class="row">
+            <div class="row text-white ">
                 <!-- USA -->
                 <div class="col-md-3">
                     <p class="ul-footer-office-location">USA</p>
