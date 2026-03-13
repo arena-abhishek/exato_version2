@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <!-- header -->
   <div class="ul-sidebar-header">
     <div class="ul-sidebar-header-logo">
-      <a href="index.html">
+      <a href="https://exatoai.netlify.app/">
         <img src="assets/img/2.png" alt="logo" class="logo">
       </a>
     </div>
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="ul-header-bottom to-be-sticky wow animate__slideInDown">
     <div class="ul-header-bottom-wrapper ul-header-container">
       <div class="logo-container">
-        <a href="index.html" class="d-inline-block"><img src="assets/img/2.png" alt="logo" class="logo"></a>
+        <a href="https://exatoai.netlify.app/" class="d-inline-block"><img src="assets/img/2.png" alt="logo" class="logo"></a>
       </div>
 
       <div class="ul-header-bottom-right">
@@ -64,43 +64,43 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="ul-header-nav-wrapper">
           <div class="to-go-to-sidebar-in-mobile">
             <nav class="ul-header-nav">
-              <a href="index.html" class="nav-item">Home</a>
+              <a href="https://exatoai.netlify.app/" class="nav-item">Home</a>
               <div class="has-sub-menu">
-                <a href="services.html" class="nav-item">OUR SOLUTIONS</a>
+                <a href="https://exatoaii.netlify.app/services" class="nav-item">OUR SOLUTIONS</a>
                 <div class="ul-header-submenu">
                   <ul>
                     <li>
-                      <a href="services/cx-analytics.html" class="sub-nav-item">CX & ANALYTICS</a>
+                      <a href="https://exatoaii.netlify.app/services/cx-analytics" class="sub-nav-item">CX & ANALYTICS</a>
                       <div class="has-sub-menu">
                         <ul>
-                          <li><a href="services/cx-as-a-service.html" class="sub-nav-item">CX AS A SERVICE</a></li>
-                          <li><a href="services/conversational-ai.html" class="sub-nav-item">CONVERSATIONAL AI</a></li>
-                          <li><a href="services/automation-as-a-service.html" class="sub-nav-item">AUTOMATION AS A SERVICE</a></li>
-                          <li><a href="services/workforce-management.html" class="sub-nav-item">WORKFORCE MANAGEMENT</a></li>
+                          <li><a href="https://exatoaii.netlify.app/services/cx-as-a-service" class="sub-nav-item">CX AS A SERVICE</a></li>
+                          <li><a href="https://exatoaii.netlify.app/services/conversational-ai" class="sub-nav-item">CONVERSATIONAL AI</a></li>
+                          <li><a href="https://exatoaii.netlify.app/services/automation-as-a-service" class="sub-nav-item">AUTOMATION AS A SERVICE</a></li>
+                          <li><a href="https://exatoaii.netlify.app/services/workforce-management" class="sub-nav-item">WORKFORCE MANAGEMENT</a></li>
                           <!-- Sub-Submenu -->
                           <div class="has-sub-menu">
                             <ul>
-                              <li><a href="services/advanced-cx.html" class="sub-nav-item">ADVANCED CX</a></li>
-                              <li><a href="services/ai-driven-automation.html" class="sub-nav-item">AI-DRIVEN AUTOMATION</a></li>
+                              <li><a href="https://exatoaii.netlify.app/services/advanced-cx" class="sub-nav-item">ADVANCED CX</a></li>
+                              <li><a href="https://exatoaii.netlify.app/services/ai-driven-automation" class="sub-nav-item">AI-DRIVEN AUTOMATION</a></li>
                             </ul>
                           </div>
                         </ul>
                       </div>
                     </li>
-                    <li><a href="services/unified-communications.html" class="sub-nav-item">UNIFIED COMMUNICATIONS</a></li>
-                    <li><a href="services/exatoiq.html" class="sub-nav-item">EXATOIQ</a></li>
-                    <li><a href="services/cloud-erp.html" class="sub-nav-item">CLOUD ERP</a></li>
+                    <li><a href="https://exatoaii.netlify.app/services/unified-communications" class="sub-nav-item">UNIFIED COMMUNICATIONS</a></li>
+                    <li><a href="https://exatoaii.netlify.app/services/exatoiq" class="sub-nav-item">EXATOIQ</a></li>
+                    <li><a href="https://exatoaii.netlify.app/services/cloud-erp" class="sub-nav-item">CLOUD ERP</a></li>
                   </ul>
                 </div>
               </div>
-              <a href="industries.html" class="nav-item">INDUSTRIES</a>
-              <a href="company.html" class="nav-item">COMPANY</a>
-              <a href="investor.html" class="nav-item">INVESTOR</a>
+              <a href="https://exatoaii.netlify.app/industries" class="nav-item">INDUSTRIES</a>
+              <a href="https://exatoaii.netlify.app/company" class="nav-item">COMPANY</a>
+              <a href="https://exatoaii.netlify.app/investor" class="nav-item">INVESTOR</a>
             </nav>
           </div>
         </div>
 
-        <a href="contact.html" class="ul-btn d-sm-inline-flex d-xxs-none"><span>Get in Touch <i class="flaticon-top-right"></i></span></a>
+        <a href="https://exatoaii.netlify.app/contact" class="ul-btn d-sm-inline-flex d-xxs-none"><span>Get in Touch <i class="flaticon-top-right"></i></span></a>
         <button class="ul-header-sidebar-opener d-lg-none d-inline-flex"><i class="flaticon-right-arrow"></i></button>
       </div>
     </div>
